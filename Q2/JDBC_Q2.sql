@@ -1,0 +1,8 @@
+CREATE DATABASE GL;
+use GL;
+CREATE TABLE GL.employee (
+    Id INT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    Email_Id VARCHAR(50) NOT NULL,
+    Phone_Number VARCHAR(15)
+);
